@@ -1,0 +1,21 @@
+<?php
+$id = $this->getData('category_id');
+$collection = Mage::getModel('catalog/category')->getCategories($id);
+$helper     = Mage::helper('catalog/category');
+?>
+
+<ul class="bullet">
+    <?php foreach ($collection as $cat):?>
+            <?php if(true):?>
+                <?php 
+                     $cur_category = Mage::getModel('catalog/category')->load($cat->getId());
+                     $_img = $cur_category->getImageUrl();  
+                ?>
+                <li>
+                    <a href="<?php echo $helper->getCategoryUrl($cat);?>">
+                         <cite><?php echo $cat->getName();?></cite>
+                    </a>
+                </li>
+            <?php endif?>
+    <?php endforeach;?>
+</ul>

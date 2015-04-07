@@ -1,0 +1,20 @@
+<?php
+
+// needed variables:
+// name
+// default-position
+// offset
+// max
+// min
+// speed
+// background-image
+// foreground-image
+// url
+
+?>
+
+<div class="parallax-window" data-parallax-max="<?php echo $this->getData('max'); ?>" data-parallax-min="<?php echo $this->getData('min'); ?>" data-parallax-offset="<?php echo $this->getData('offset'); ?>" data-parallax-speed="<?php echo $this->getData('speed'); ?>" style="background-image:url('<?php echo Mage::getBaseUrl('media').$this->getData('background-image'); ?>');background-position:0px <?php echo $this->getData('default-position'); ?>">
+    <a href="<?php echo $this->getData('url'); ?>" class="overlay">
+        <img src="<?php echo Mage::getBaseUrl('media').$this->getData('foreground-image'); ?>" alt="<?php echo $this->getData('name'); ?>" style="max-width:101%;" />
+    </a>
+</div>

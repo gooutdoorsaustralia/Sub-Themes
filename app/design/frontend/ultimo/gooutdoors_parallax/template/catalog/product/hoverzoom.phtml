@@ -1,0 +1,35 @@
+<?php
+
+// needed variables:
+// url: url to the product page
+// imageSrc: url of the image to display
+// name: product name to display
+// price: price to display
+// stickerNew: yes/no - whether to display the 'NEW' sticker or not
+// stickerViewDeal: yes/no - whether to display the 'view deals' sticker or not.
+
+?>
+
+
+<a href="<?php echo $this->getData('url'); ?>" class="hover-zoomer" style="background-image:url('<?php echo Mage::getBaseUrl('media'); ?>wysiwyg/infortis/ultimo/custom/banners/grey-grad-border.jpg');">
+    <img src="<?php echo Mage::getBaseUrl('media').$this->getData('imageSrc'); ?>" alt="" class="product-image" />
+    <div class="product-desc"><?php echo $this->getData('name'); ?></div>
+    <div class="product-price">$<?php echo $this->getData('price'); ?></div>
+    
+    <?php if($this->getData('stickerNew')=="yes"){ ?>
+    <div class="new-sticker"><img src="<?php echo Mage::getBaseUrl('media'); ?>wysiwyg/infortis/ultimo/custom/stickers/new-sticker.png" alt="" /></div>
+    <?php } ?>
+
+    <?php if($this->getData('stickerSale')=="yes"){ ?>
+    <div class="sale-sticker"><img src="<?php echo Mage::getBaseUrl('media'); ?>wysiwyg/infortis/ultimo/custom/stickers/sale.png" alt="" /></div>
+    <?php } ?>
+
+    <?php if($this->getData('stickerViewDeal')=="yes"){ ?>
+    <div class="view-deals-sticker"><img src="<?php echo Mage::getBaseUrl('media'); ?>wysiwyg/infortis/ultimo/custom/stickers/view-deals-sticker.png" alt="" /></div>
+    <?php } ?>
+
+    <?php if($this->getData('stickerView')=="yes"){ ?>
+    <div class="view-sticker"><img src="<?php echo Mage::getBaseUrl('media'); ?>wysiwyg/infortis/ultimo/custom/stickers/view.png" alt="" /></div>
+    <?php } ?>
+
+</a>

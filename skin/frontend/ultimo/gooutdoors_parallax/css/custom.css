@@ -1,0 +1,365 @@
+/* 
+	filename: custom.css 
+*/
+
+/***********************************************/
+/***** START THANK YOU PAGE RESPONSIVE CSS *****/
+/***********************************************/
+
+/* Large Displays Only CSS */
+@media only screen and (min-width: 1630px) {
+	.thank-you.top .top-text h1{font-size: 5em;}
+	.thank-you.top .top-text p{font-size: 1.5em;}
+	.thank-you.top .social .dark-box p{font-size: 1.1em;}
+	.thank-you.large-banner{top: -350px;}
+	.thank-you.large-banner div.offer-box{top: 90px;width: 500px;}
+	.thank-you.large-banner div.offer-box p{font-size: 2.5em;}
+	.thank-you.large-banner div.help p{font-size: 1em;}
+}
+
+/* Medium Displays Only CSS */
+@media only screen and (min-width: 1300px) and (max-width: 1629px) {
+	.thank-you.top .top-text h1{font-size: 4em;}
+	.thank-you.top .top-text p{font-size: 1.3em;}
+	.thank-you.top .social .dark-box p{font-size: 1.1em;}
+	.thank-you.large-banner{top: -375px;}
+	.thank-you.large-banner div.offer-box{top: 90px;width: 500px;}
+	.thank-you.large-banner div.offer-box p{font-size: 2.5em;}
+	.thank-you.large-banner div.help p{font-size: 1em;}
+}
+
+
+/* Small Displays Only CSS */
+@media only screen and (min-width: 1050px) and (max-width: 1299px) {
+	.thank-you.top .social .dark-box p{font-size: .7em;}
+	.thank-you.large-banner{top: -335px;}
+	.thank-you.large-banner div.offer-box{top: 76px;width: 480px;}
+	.thank-you.large-banner div.offer-box p{font-size: 2.0em;}
+	.thank-you.large-banner div.help p{font-size: .75em;}
+}
+
+/* Tablet Only CSS */
+@media only screen and (min-width: 770px) and (max-width: 1049px) {
+	.thank-you.top .social .dark-box p{font-size: .7em;}
+	.thank-you.large-banner{top: -300px;}
+	.thank-you.large-banner div.offer-box{top: 76px;width: 480px;}
+	.thank-you.large-banner div.offer-box p{font-size: 2.0em;}
+	.thank-you.large-banner div.help p{font-size: .75em;}
+}
+
+/* Any thing Above Mobile CSS */
+@media only screen and (min-width: 770px){
+	.thank-you.top .top-text{position: relative;z-index: 2;}
+	.thank-you.top .top-text p.subtext{line-height: 1;margin: 0px;}
+	.thank-you.top .social{position: relative;z-index: 2;}
+	.thank-you.top .social .dark-box{color: white;background-color: #323631;text-align: center;}
+	.thank-you.top .social .dark-box img{width: 60%;}
+	.thank-you.top .social .dark-box p{padding: 5%;}
+	.thank-you.large-banner{position: relative;z-index: 1;margin-bottom: -350px;}
+	.thank-you.large-banner img{position: relative;z-index: 1;top: 0px;}
+	.thank-you.large-banner div.offer-box{text-align: center;background-color: #c6c4b7;position: relative;left: 20px;z-index: 2}
+	.thank-you.large-banner div.offer-box p{line-height: 1;color: white;padding: 10px;margin: 0;}
+	.thank-you div.help{position: relative;z-index: 2;top: -62px;left: 20px;width: 70%;}
+	.thank-you div.help p{color: white;margin: 0px;}
+}
+
+/* Mobile Only CSS */
+@media only screen and (max-width: 769px){
+	.thank-you h1{font-size: 1.5em;}
+	.thank-you .social{display: none;}
+	.thank-you.large-banner img{display: none;}
+}
+
+/* Any thing Above Mobile CSS */
+@media only screen and (min-width: 770px){
+	.thank-you.top .top-text{position: relative;z-index: 2;}
+	.thank-you.top .top-text p.subtext{line-height: 1;}
+	.thank-you.top .social{position: relative;z-index: 2;}
+	.thank-you.top .social .dark-box{color: white;background-color: #323631;text-align: center;}
+	.thank-you.top .social .dark-box img{width: 60%;}
+	.thank-you.top .social .dark-box p{padding: 5%;}
+	.thank-you.large-banner{position: relative;z-index: 1;margin-bottom: -350px;}
+	.thank-you.large-banner img{position: relative;z-index: 1;top: 0px;}
+	.thank-you.large-banner div.offer-box{text-align: center;background-color: #c6c4b7;position: relative;left: 20px;z-index: 2;}
+	.thank-you.large-banner div.offer-box p{line-height:  1;color: white;padding: 10px;margin: 0;}
+	.thank-you div.help{position: relative;z-index: 2;top: -62px;left: 20px;width: 70%;}
+	.thank-you div.help p{color: white;margin: 0px;}
+}
+
+/* Mobile Only CSS */
+@media only screen and (max-width: 769px){
+	.thank-you h1{font-size: 1.5em;}
+	.thank-you .social{display: none;}
+	.thank-you.large-banner img{display: none;}
+}
+
+/*********************************************/
+/***** END THANK YOU PAGE RESPONSIVE CSS *****/
+/*********************************************/
+
+/******************************************/
+/***** PRODUCT BANNERS RESPONSIVE CSS *****/
+/******************************************/
+
+.product-banner div{float:left;}
+.product-banner div img{width:100%;}
+
+/* Show 5 banners above 1280px */
+@media only screen and (min-width: 1280px){
+ .product-banner div{width:20%;}
+}
+
+/* Show 5 banners above 960px */
+@media only screen and (min-width: 960px) and (max-width: 1279px){
+  .product-banner div{width:20%;}
+}
+
+/* Show 3 banners above 768px */
+@media only screen and (min-width: 768px) and (max-width: 959px){
+  .product-banner div{width:33.33333%;}
+}
+
+/* Show 2 banners above 480px */
+@media only screen and (min-width: 480px) and (max-width: 767px){
+  .product-banner div{width:50%;}
+}
+
+/* Show 1 banner above 320px */
+@media only screen and (min-width: 320px) and (max-width: 479px){
+  .product-banner div{width:100%;}
+}
+
+/**********************************************/
+/***** END PRODUCT BANNERS RESPONSIVE CSS *****/
+/**********************************************/
+
+/******************************************/
+/****** PAGE BANNERS RESPONSIVE CSS *******/
+/******************************************/
+
+.no-side-space div.grid12-4{width:33.33%;margin:0;}
+.no-side-space div.grid12-4 img{width:100%;}
+@media only screen and (min-width: 1280px){.std-home-space{padding-bottom:.5%;}}
+@media only screen and (min-width: 960px) and (max-width: 1279px){.std-home-space{padding-bottom:.75%;}}
+@media only screen and (min-width: 768px) and (max-width: 959px){.std-home-space{padding-bottom:1%;}}
+@media only screen and (min-width: 480px) and (max-width: 767px){.std-home-space{padding-bottom:1.75%;}}
+@media only screen and (min-width: 320px) and (max-width: 479px){.std-home-space{padding-bottom:3%;}}
+
+/*******************************************/
+/***** END PAGE BANNERS RESPONSIVE CSS *****/
+/*******************************************/
+
+/****************************************/
+/****** SHOW BELOW RESPONSIVE CSS *******/
+/****************************************/
+
+/* Shows: None */
+@media only screen and (min-width: 1280px){
+	.show-below-1280{display:none!important;}
+	.show-below-960{display:none!important;}
+	.show-below-768{display:none!important;}
+	.show-below-480{display:none!important;}
+	.show-below-320{display:none!important;}
+}
+
+/* Shows: 1280 */
+@media only screen and (min-width: 960px) and (max-width: 1279px){
+  	.show-below-1280{display:inherit!important;}
+	.show-below-960{display:none!important;}
+	.show-below-768{display:none!important;}
+	.show-below-480{display:none!important;}
+	.show-below-320{display:none!important;}
+}
+
+/* Shows: 1280, 960 */
+@media only screen and (min-width: 768px) and (max-width: 959px){
+	.show-below-1280{display:inherit!important;}
+	.show-below-960{display:inherit!important;}
+	.show-below-768{display:none!important;}
+	.show-below-480{display:none!important;}
+	.show-below-320{display:none!important;}
+}
+
+/* Shows: 1280, 960, 768 */
+@media only screen and (min-width: 480px) and (max-width: 767px){
+	.show-below-1280{display:inherit!important;}
+	.show-below-960{display:inherit!important;}
+	.show-below-768{display:inherit!important;}
+	.show-below-480{display:none!important;}
+	.show-below-320{display:none!important;}
+}
+
+/* Shows: 1280, 960, 768, 480 */
+@media only screen and (min-width: 320px) and (max-width: 479px){
+	.show-below-1280{display:inherit!important;}
+	.show-below-960{display:inherit!important;}
+	.show-below-768{display:inherit!important;}
+	.show-below-480{display:inherit!important;}
+	.show-below-320{display:none!important;}
+}
+
+/* Shows: 1280, 960, 768, 480, 320 */
+@media only screen and (max-width: 319px){
+	.show-below-1280{display:inherit!important;}
+	.show-below-960{display:inherit!important;}
+	.show-below-768{display:inherit!important;}
+	.show-below-480{display:inherit!important;}
+	.show-below-320{display:inherit!important;}
+}
+
+/**************************************************/
+/***** end SHOW BELOW BANNERS RESPONSIVE CSS *****/
+/*************************************************/
+
+/**************************************************/
+/****** WINDOW STYLE BLOCKS FOR INFORMATION *******/
+/**************************************************/
+
+div.window-style-columns div.window{background-color: #EEE;}
+div.window-style-columns div.window .opener{margin-top: 4px;margin-right: 8px;}
+div.window-style-columns div.window div.title{padding: 10px;font-weight: bold;}
+div.window-style-columns div.window .window-content{border: 2px solid #eee;padding: 2.5%;background-color: white;}
+
+@media only screen and (min-width: 1280px){
+	div.window-style-columns div.window div.title{font-size:1.25em;}
+}
+
+@media only screen and (min-width: 960px) and (max-width: 1279px){
+	div.window-style-columns div.window div.title{font-size:1em;}
+}
+
+@media only screen and (min-width: 853px) and (max-width: 959px){
+	div.window-style-columns div.window div.title{font-size:.75em;}
+}
+
+@media only screen and (min-width: 420px) and (max-width: 852px){
+	div.window-style-columns div.window div.title{font-size:1em;}
+}
+
+@media only screen and (max-width: 419px){
+	div.window-style-columns div.window div.title{font-size:1em;}
+}
+
+/**************************************************/
+/****** WINDOW STYLE BLOCKS FOR INFORMATION *******/
+/**************************************************/
+
+/**************************************************/
+/****** MAKE MAILCHIMP SIGNUP BUTTON SQUARE *******/
+/**************************************************/
+
+.mailchimp-signup-form{margin-bottom: 50px;}
+.mailchimp-signup-form #mc-embedded-subscribe{font-weight:normal!important;font-size:18px!important;border-radius: 0px!important;width: 200px!important;height: 55px!important;background-color: #B2DA24!important;}
+.mailchimp-signup-form #mc-embedded-subscribe:hover{background-color: #6ca8ff!important;color:#000!important;}
+
+/**************************************************/
+/****** MAKE MAILCHIMP SIGNUP BUTTON SQUARE *******/
+/**************************************************/
+
+/***************************************************/
+/****** FIX GIFT CARD MESSAGE ALIGNMENT CART *******/
+/***************************************************/
+
+#giftvoucher_container .message{display: none;width: 100%;}
+
+/***************************************************/
+/****** FIX GIFT CARD MESSAGE ALIGNMENT CART *******/
+/***************************************************/
+
+/********************************************************/
+/****** HIDE DUPLICATE BACK IN STOCK NOTIFICATION *******/
+/********************************************************/
+
+.block-autoresponder-backtostock{display:none;}
+
+/********************************************************/
+/****** HIDE DUPLICATE BACK IN STOCK NOTIFICATION *******/
+/********************************************************/
+
+/********************************************/
+/****** DISPLAY GENERIC ERROR MESSAGE *******/
+/********************************************/
+/*
+	If an error occured but a message was not displayed, this inserts a generic error message.
+*/
+
+ul.messages li.error-msg ul li span:empty:before{
+  content:"An error occured while trying to process your request. Please contact us if the problem persists.";
+}
+
+/********************************************/
+/****** DISPLAY GENERIC ERROR MESSAGE *******/
+/********************************************/
+
+/******************************************************/
+/****** UNBOLD THE LABELS AND BOLD THE HEADINGS *******/
+/******************************************************/
+
+dl.shipment-methods dt{font-weight:bold;}
+label{font-weight:normal;}
+
+/******************************************************/
+/****** UNBOLD THE LABELS AND BOLD THE HEADINGS *******/
+/******************************************************/
+
+/**********************************************************/
+/****** CENTER SOCIAL ICONS UNDER LETS CONNECT TEXT *******/
+/**********************************************************/
+
+@media screen and (min-width: 769px){
+	.block_footer_primary_bottom_left div{margin-left:10px;}
+}
+
+/**********************************************************/
+/****** CENTER SOCIAL ICONS UNDER LETS CONNECT TEXT *******/
+/**********************************************************/
+
+/**********************************************************/
+/****** MAKE THE TABLES READABLE FOR TECH DETAILS *******/
+/**********************************************************/
+
+.tech-detail-table th{
+  padding:0px 10px;
+  font-weight:bold;
+	text-align:center;
+}
+
+.tech-detail-table td{
+  text-align:center;
+	padding:5px 15px;
+}
+
+.tech-detail-table tr:nth-child(even){
+  background-color:#EEE;
+}
+
+/**********************************************************/
+/****** MAKE THE TABLES READABLE FOR TECH DETAILS *******/
+/**********************************************************/
+
+/******************************************************/
+/****** Fixes the Direct deposit info from indenting *******/
+/******************************************************/
+.form-list label {float:none;}
+/******************************************************/
+/****** Fixes the Direct deposit info from indenting *******/
+/******************************************************/
+
+
+/*********************************************************/
+/****** CENTER THE LINKS ON THE BOTTOM OF THE FOOTER *******/
+/***********************************************************/
+.footer-container .links-wrapper-separators .item{display:inline-block;width:100%;text-align:center;}
+.footer-container .links-wrapper-separators .item ul.links{display:inline-block}
+/***********************************************************/
+/****** CENTER THE LINKS ON THE BOTTOM OF THE FOOTER *******/
+/***********************************************************/
+
+
+/*********************************************************/
+/****** REMOVE SPACE BETWEEN THE FOOTER AND BOTTOM LOGO *******/
+/***********************************************************/
+div.footer-primary-container{padding-bottom:0px;}
+/*********************************************************/
+/****** REMOVE SPACE BETWEEN THE FOOTER AND BOTTOM LOGO *******/
+/***********************************************************/
