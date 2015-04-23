@@ -375,3 +375,12 @@ div.footer-primary-container{padding-bottom:0px;}
 /*********************************************************/
 /****** REMOVE SPACE BETWEEN THE FOOTER AND BOTTOM LOGO *******/
 /***********************************************************/
+
+/***********************************/
+/****** STYLE FOR ALERT NOTE *******/
+/***********************************/
+.alertNote{background-color:lightgoldenrodyellow;border-left:3px solid orange;padding:5px;margin-top:10px;}
+.alertNote span{border:0px;}
+/***********************************/
+/****** STYLE FOR ALERT NOTE *******/
+/***********************************/
