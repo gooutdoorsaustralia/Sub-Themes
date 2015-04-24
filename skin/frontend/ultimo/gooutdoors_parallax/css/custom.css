@@ -392,3 +392,12 @@ div.footer-primary-container{padding-bottom:0px;}
 /*********************************************************************/
 /****** CHANGE FONT OF CATEGORY HEADING AND ADD TO CART BUTTON *******/
 /*********************************************************************/
+
+/********************************************************/
+/****** EXTEND SHOPPING CART FORMS TO FULL WIDTH  *******/
+/********************************************************/
+.cart .cart-collaterals .col2-set .col-1{display:none;}
+.cart .cart-collaterals .col2-set .col-2{float:none;width:100%;}
+/********************************************************/
+/****** EXTEND SHOPPING CART FORMS TO FULL WIDTH  *******/
+/********************************************************/
