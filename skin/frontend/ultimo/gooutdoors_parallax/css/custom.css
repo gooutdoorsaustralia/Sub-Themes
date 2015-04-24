@@ -384,3 +384,11 @@ div.footer-primary-container{padding-bottom:0px;}
 /***********************************/
 /****** STYLE FOR ALERT NOTE *******/
 /***********************************/
+
+/*********************************************************************/
+/****** CHANGE FONT OF CATEGORY HEADING AND ADD TO CART BUTTON *******/
+/*********************************************************************/
+.category-title h1, .btn-cart ,.add-to-cart .button{font-family:gooutdoors;}
+/*********************************************************************/
+/****** CHANGE FONT OF CATEGORY HEADING AND ADD TO CART BUTTON *******/
+/*********************************************************************/
