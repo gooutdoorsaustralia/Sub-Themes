@@ -258,6 +258,7 @@
                 <?php elseif ($gc['display_price'] == 2): //Always display ?>
                     <?php if($_product->price!=0){echo $this->getPriceHtml($_product, true);}?>
                 <?php endif; ?>
+                <?php echo $_product->price; ?>
 
                 
 
