@@ -97,7 +97,7 @@
             </a>
             <h3 class="product-name"><a href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $this->escapeHtml($_product->getName()) ?>"><?php echo $this->escapeHtml($_product->getName()) ?></a></h3>
             <?php echo $this->getReviewsSummaryHtml($_product, 'short') ?>
-            <?php if($_product->price!=0): echo $this->getPriceHtml($_product, true, '-upsell') ?> 
+            <?php if($_product->price!=0){echo $this->getPriceHtml($_product, true, '-upsell');} ?> 
         </div>
     <?php endforeach; ?>
     </div> <!-- end: itemslider -->
