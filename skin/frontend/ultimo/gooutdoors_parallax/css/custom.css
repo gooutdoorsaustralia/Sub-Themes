@@ -425,3 +425,8 @@ iframe[name="google_conversion_frame"]{display:none;}
 /************************************************************************/
 /****** Hide google iframe as it is adding un-wanted white space  *******/
 /************************************************************************/
+
+
+/* Change width of search box to fit sphynx search. */
+.search-wrapper-centered .form-search .input-text {width: 100%;}
+/* Change width of search box to fit sphynx search. */
