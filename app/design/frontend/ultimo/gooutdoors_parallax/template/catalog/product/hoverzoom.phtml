@@ -32,4 +32,16 @@
     <div class="view-sticker"><img src="<?php echo Mage::getBaseUrl('media'); ?>wysiwyg/infortis/ultimo/custom/stickers/view.png" alt="" /></div>
     <?php } ?>
 
+    <?php if($this->getData('stickerFreeShipping')=="yes"){ ?>
+    <div class="free-shipping-sticker">Free Shipping!</div>
+    <?php } ?>
+
+    <?php if($this->getData('stickerTopSeller')=="yes"){ ?>
+    <div class="top-seller-sticker">Top Seller!</div>
+    <?php } ?>
+
+    <?php if($this->getData('stickerMostPopular')=="yes"){ ?>
+    <div class="most-popular-sticker">Most Popular!</div>
+    <?php } ?>
+
 </a>
