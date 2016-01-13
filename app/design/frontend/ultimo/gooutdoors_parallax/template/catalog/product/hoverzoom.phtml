@@ -12,7 +12,7 @@
 
 
 <a href="<?php echo $this->getData('url'); ?>" class="hover-zoomer" style="background-image:url('<?php echo Mage::getBaseUrl('media'); ?>wysiwyg/infortis/ultimo/custom/banners/grey-grad-border.jpg');">
-    <img src="<?php echo Mage::getBaseUrl('media').$this->getData('imageSrc'); ?>" alt="" class="product-image" />
+    <img src="<?php echo Mage::getBaseUrl('media').$this->getData('imageSrc'); ?>" alt="<?php echo $this->getData('name'); ?>" class="product-image" />
     <div class="product-desc"><?php echo $this->getData('name'); ?></div>
     <div class="product-price">$<?php echo $this->getData('price'); ?></div>
     
